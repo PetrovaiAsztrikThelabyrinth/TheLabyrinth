@@ -1,3 +1,4 @@
+import Tile from "./Tile.js";
 class JatekTer {
 #meret = 5
 #palya = this.#meret*this.#meret;

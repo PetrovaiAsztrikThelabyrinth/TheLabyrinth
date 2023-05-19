@@ -5,12 +5,10 @@ class JatekTer {
 
 constructor(){
     console.log("Jatekter");
-    const ARTICLE = $("article");
-    ARTICLE.append(`<div class="border">`);
+    const ARTICLE = $(".border");
     for (let i = 0; i < this.#palya; i++) {
       const tile = new Tile(ARTICLE, i);
     }
-    ARTICLE.append(`</div>`);
 }
 }
 export default JatekTer

@@ -7,12 +7,17 @@ header{
 }
 
 .border{
-    border: 1px black solid;
+    margin: auto;
+    border: 5px black solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 260px;
 }
 
 .palya{
     width: 50px;
     height: 50px;
+    margin: auto;
+    border: 1px blue solid;
+    text-align: center;
 }

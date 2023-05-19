@@ -6,7 +6,7 @@ class JatekTer {
 constructor(){
     console.log("Jatekter");
     const ARTICLE = $("article");
-    ARTICLE.append(`<div>`);
+    ARTICLE.append(`<div class="border">`);
     for (let i = 0; i < this.#palya; i++) {
       const tile = new Tile(ARTICLE, i);
     }

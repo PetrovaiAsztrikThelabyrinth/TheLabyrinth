@@ -7,8 +7,8 @@ class Tile {
     this.#id = id;
     console.log("Tile");
     szuloElem.append(`
-          <div>
-              
+          <div class="palya">
+            X
           </div>
       `);
   }

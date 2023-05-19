@@ -11,12 +11,12 @@ header{
     border: 5px black solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 260px;
+    width: 382px;
 }
 
 .palya{
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     margin: auto;
     border: 1px blue solid;
     text-align: center;

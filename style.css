@@ -15,7 +15,6 @@ header{
 }
 
 .palya{
-    background-size: cover;
     object-fit: cover;
     width: 75px;
     height: 75px;

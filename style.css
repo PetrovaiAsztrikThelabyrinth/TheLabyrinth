@@ -15,9 +15,15 @@ header{
 }
 
 .palya{
+    background-image: url(kepek/dark\ fantasy\ du\ 0.png);
+    background-size: cover;
+    object-fit: cover;
     width: 75px;
     height: 75px;
     margin: auto;
     border: 1px blue solid;
     text-align: center;
+}
+.hero{
+    
 }

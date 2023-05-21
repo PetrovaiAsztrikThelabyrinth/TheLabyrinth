@@ -1,29 +1,29 @@
-footer{
-    text-align: center;
-
+footer {
+  text-align: center;
 }
-header{
-    text-align: center;
-}
-
-.border{
-    margin: auto;
-    border: 5px black solid;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 382px;
+header {
+  text-align: center;
 }
 
-.palya{
-    background-image: url(kepek/dark\ fantasy\ du\ 0.png);
-    background-size: cover;
-    object-fit: cover;
-    width: 75px;
-    height: 75px;
-    margin: auto;
-    border: 1px blue solid;
-    text-align: center;
+.border {
+  margin: auto;
+  border: 5px blue solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 375px;
 }
-.hero{
-    
+
+.palya {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  text-align: center;
+}
+
+.palya > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.hero {
 }

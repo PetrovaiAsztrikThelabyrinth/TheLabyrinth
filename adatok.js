@@ -8,3 +8,8 @@ export const VEGLISTA = [
     {gyozelem: "Gratuálunk kijutottál a labirintusból"},
     {ehhalal: "Sajnáom elvesztél a labirintusban"}
 ]
+export const TILE = [
+    "kepek/dark fantasy du 0.png",
+    "kepek/dark fantasy ti 0.png",
+    "kepek/dark fantasy ti 1.png",
+]

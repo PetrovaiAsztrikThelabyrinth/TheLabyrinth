@@ -2,7 +2,7 @@ class hero{
     stat();
 }
 stat(){
-   elet =  Math.floor(Math.random() * 5) + 3;
+   elet =  5;
    stamina = 
 }
 export default hero;

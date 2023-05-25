@@ -1,7 +1,10 @@
 import JatekTer from "./JatekTer.js";
 
 class Hero{
-    stat();
+    constructor(){
+        stat(palya);
+    }
+
 }
 function stat(palya){
    elet =  5;

@@ -5,7 +5,7 @@ class JatekTer {
 #meret = 10; 
 #palya = this.#meret*this.#meret;
 constructor(){
-    hero
+    this.Hero(this.#palya)
     console.log("Jatekter");
     const ARTICLE = $(".border");
     let hero = this.herolocation();
@@ -13,7 +13,7 @@ constructor(){
     for (let i = 0; i < this.#palya; i++) {
       let tiletextures = this.tiletexture();
       if(hero == i){const tile = new Tile(ARTICLE, i, "kepek/hero.png");}
-      if else 
+      if(veg == i){const tile = new Tile(ARTICLE, i, "kepek/vegpont.png");}
       else{const tile = new Tile(ARTICLE, i, TILE[tiletextures]);}
     }
 }

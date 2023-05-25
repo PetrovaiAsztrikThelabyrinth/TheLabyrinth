@@ -5,7 +5,7 @@ class JatekTer {
 #meret = 10; 
 #palya = this.#meret*this.#meret;
 constructor(){
-    this.Hero(this.#palya)
+  const hos = new Hero(this.#palya);
     console.log("Jatekter");
     const ARTICLE = $(".border");
     let hero = this.herolocation();

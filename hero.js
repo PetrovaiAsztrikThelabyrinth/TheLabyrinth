@@ -1,7 +1,7 @@
 import JatekTer from "./JatekTer.js";
 
 class Hero{
-    constructor(){
+    constructor(palya){
         stat(palya);
     }
 

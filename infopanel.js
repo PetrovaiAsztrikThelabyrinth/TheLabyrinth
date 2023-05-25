@@ -1,18 +1,16 @@
 import { VEGLISTA } from "./adatok.js"
+import Esemeny from "./esemenyek.js"
 class Infopanel{
     #veg
     #adat
     constructor(){
-    this.#veg = false;
     this.#adat = adat;
     function osszealit(OBJEKTUMLISTA) {
         let txt = "";
         for (let index = 0; index < VEGLISTA.length; index++) {
           txt += `<div class="card col-lg-5.5 col-md-3 col-sm-1.5 bg-info text-white text-center ${index}">
-          <p>${VEGLISTA[index].gyozelem}</p>
-          <p>${OBJEKTUMLISTA[index].ehhalal}</p>
-          <div><button id="${index}" class="btn btn-primary info" data-toggle="modal" data-target="#myModal">Info</button>
-          <button id="${index}" class="btn btn-primary kosar">Kosár</button></div></div>`;
+          <p>${Esemeny()}</p>
+          <button id="${index}" class="btn btn-primary">Kosár</Vége></div></div>`;
           
         }
         txt += `<div class="modal" id="myModal">

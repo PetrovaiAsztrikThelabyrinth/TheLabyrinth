@@ -13,7 +13,7 @@ constructor(){
     for (let i = 0; i < this.#palya; i++) {
       let tiletextures = this.tiletexture();
       if(hero == i){const tile = new Tile(ARTICLE, i, "kepek/hero.png");}
-      if(veg == i){const tile = new Tile(ARTICLE, i, "kepek/vegpont.png");}
+      else if(veg == i){const tile = new Tile(ARTICLE, i, "kepek/vegpont.png");}
       else{const tile = new Tile(ARTICLE, i, TILE[tiletextures]);}
     }
 }

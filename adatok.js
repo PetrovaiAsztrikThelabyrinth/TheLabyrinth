@@ -13,3 +13,7 @@ export const TILE = [
     "kepek/dark fantasy ti 0.png",
     "kepek/dark fantasy ti 1.png",
 ]
+export const STAT = [
+    "kepek/HP.png",
+    "kepek/energy.png",  
+]

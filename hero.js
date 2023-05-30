@@ -4,21 +4,23 @@ class Hero {
   #szuloElem;
   #texture;
   #id;
-  constructor(palyaMeret, id, StatTexture) {
-    statkiir(palyaMeret, id, StatTexture  );
+  #statusok = [];
+  constructor() {
+    
   }
-  statkiir(szuloElem, StatTexture) {
+  statkiir(id, szuloElem, StatTexture) {
+    this.stat(25);
     console.log(StatTexture);
     this.#szuloElem = szuloElem;
     this.#id = id;
     this.#texture = StatTexture;
     console.log("stat");
     szuloElem.append(`
-    <div class="palya" id="${this.#id}">
+    <div class="statok" id="${this.#id}">
       <img src="${StatTexture}" alt="stat">
     </div>
-    <div class="palya" id="${this.#id}">
-    <p>:${this.stat()}</p>
+    <div class="statok" id="${this.#id}">
+    <p>${this.#statusok[id]}</p>
   </div>
 `);
   }
@@ -26,7 +28,10 @@ class Hero {
   herolocation() {}
   stat(palyaMeret) {
     this.elet = 5;
-    this.stamina = Math.floor(Math.random() * (palyaMeret * 0.2)) + 1;
+    this.#statusok.push(this.elet)
+    
+    this.stamina = palyaMeret * 0.4;
+    this.#statusok.push(this.stamina)
   }
   heroPozitcio() {}
 }

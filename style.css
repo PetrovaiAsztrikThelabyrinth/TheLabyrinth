@@ -10,14 +10,26 @@ header {
 aside {
   justify-self: center;
 }
-.Hstat > img{
-  width: 50px;
-  height: 50px;
+.Hstat img{
+  width: 100px;
+  height: 100px;
 }
 .Hstat{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.statok{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+}
+
 article {
   justify-self: end;
   
@@ -37,7 +49,6 @@ grid-template-columns: 2fr 1fr;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 375px;
-  
 }
 
 .palya {

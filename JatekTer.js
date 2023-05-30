@@ -9,15 +9,15 @@ class JatekTer {
 
   constructor() {
     const hos = new Hero(this.#palyaMeret);
-    console.log("Jatekter");
     const ARTICLE = $(".border");
     const ASIDE = $(".Hstat");
     hos.herolocation();
-    //let veg = ;
+    this.#STATLISTA=STAT;
+    console.log(this.#STATLISTA);
     this.listaTolt();
-    for (let j = 0; j < 4; j++) {
+    for (let j = 0; j < 2; j++) {
       const HERO = new Hero;
-      HERO.statkiir(ASIDE,StatTexture)
+      HERO.statkiir(j, ASIDE,this.#STATLISTA[j])
     }
     for (let i = 0; i < this.#palyaMeret; i++) {
       let tiletextures = this.tiletexture();

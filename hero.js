@@ -4,8 +4,8 @@ class Hero {
   #szuloElem;
   #texture;
   #id;
-  constructor(palyaMeret) {
-    
+  constructor(palyaMeret, id, StatTexture) {
+    statkiir(palyaMeret, id, StatTexture  );
   }
   statkiir(szuloElem, StatTexture) {
     console.log(StatTexture);
@@ -13,14 +13,14 @@ class Hero {
     this.#id = id;
     this.#texture = StatTexture;
     console.log("stat");
-      szuloElem.append(`
-      <div class="palya" id="${this.#id}">
-        <img src="${StatTexture}" alt="stat">
-      </div>
-      <div class="palya" id="${this.#id}">
-      <p>${}</p>
+    szuloElem.append(`
+    <div class="palya" id="${this.#id}">
+      <img src="${StatTexture}" alt="stat">
     </div>
-  `);
+    <div class="palya" id="${this.#id}">
+    <p>:${this.stat()}</p>
+  </div>
+`);
   }
 
   herolocation() {}
@@ -28,9 +28,7 @@ class Hero {
     this.elet = 5;
     this.stamina = Math.floor(Math.random() * (palyaMeret * 0.2)) + 1;
   }
-  heroPozitcio() {
-
-  }
+  heroPozitcio() {}
 }
 
 export default Hero;

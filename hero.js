@@ -6,7 +6,7 @@ class Hero {
   #id;
   #statusok = [];
   constructor() {
-    
+
   }
   statkiir(id, szuloElem, StatTexture) {
     this.stat(25);
@@ -23,17 +23,17 @@ class Hero {
     <p>${this.#statusok[id]}</p>
   </div>
 `);
+
   }
 
-  herolocation() {}
+
   stat(palyaMeret) {
     this.elet = 5;
-    this.#statusok.push(this.elet)
-    
+    this.#statusok.push(this.elet);
+
     this.stamina = palyaMeret * 0.4;
-    this.#statusok.push(this.stamina)
+    this.#statusok.push(this.stamina);
   }
-  heroPozitcio() {}
 }
 
 export default Hero;

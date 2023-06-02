@@ -5,8 +5,8 @@ export const EVENTLISTA = [
     {cim: "Elátmány", leiras: "Találtál ellátmányt a földön kapsz 5 kaját", eletero: 0, kaja: 5},
 ]
 export const VEGLISTA = [
-    {gyozelem: "Gratuálunk kijutottál a labirintusból"},
-    {ehhalal: "Sajnáom elvesztél a labirintusban"}
+    "Gratuálunk kijutottál a labirintusból",
+    "Sajnáom elvesztél a labirintusban",
 ]
 export const TILE = [
     "kepek/dark fantasy du 0.png",

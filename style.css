@@ -70,16 +70,46 @@ body{
 .myImage img{
   width: 75px;
   height: 75px;
-  position: absolute;
-  top: 178px;
-  left: 640px;
+  position: relative;
+  top: 5px;
+  left: 155px;
   transform: translateX(0) translateY(0);
 }
 .vegImage img{
   width: 75px;
   height: 75px;
-  position: absolute;
-  top: 478px;
-  left: 640px;
+  position: relative;
+  top: 305px;
+  left: 155px;
   transform: translateX(0) translateY(0);
+}
+
+.vegImage{
+  width: 0px;
+  height: 0px;
+}
+
+.myImage{
+  width: 0px;
+  height: 0px;
+}
+
+#myModal{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+.modal-content{
+  position: relative;
+}
+.modal-header{
+  text-align: center;
+}
+.modal-footer{ 
+  
+    margin: auto;
+    
 }

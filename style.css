@@ -5,15 +5,17 @@ body{
 }
 footer {
   text-align: center;
-  color: rgb(14, 14, 54);
+  color: darkblue;
 }
 header {
   font-size: 100px;
   text-align: center;
   padding-bottom: 50px;
+  color: darkblue;
 }
-aside { border: 5px solid rgb(14, 14, 54);
+aside {
   justify-self: center;
+  background-color: rgb(227, 227, 227);
 }
 .Hstat img {
   width: 100px;
@@ -44,12 +46,11 @@ main {
   grid-template-columns: 2fr 1fr;
 }
 .asHero {
-  width: 400px;
+  width: 100%;
   height: 300px;
 }
 .border {
   margin: auto;
-  border: 5px rgb(14, 14, 54) solid;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 375px;
@@ -71,16 +72,16 @@ main {
   width: 75px;
   height: 75px;
   position: relative;
-  top: 5px;
-  left: 155px;
+  top: 0px;
+  left: 150px;
   transform: translateX(0) translateY(0);
 }
 .vegImage img {
   width: 75px;
   height: 75px;
   position: relative;
-  top: 305px;
-  left: 155px;
+  top: 300px;
+  left: 150px;
   transform: translateX(0) translateY(0);
 }
 
@@ -98,7 +99,7 @@ main {
   position: absolute;
   top: 25%;
   left: 50%;
-  background-color: rgb(14, 14, 54);
+  background-color: rgb(227, 227, 227);
   padding: 10px;
 }
 

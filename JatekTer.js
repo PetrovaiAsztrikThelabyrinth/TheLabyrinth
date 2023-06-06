@@ -5,7 +5,6 @@ import Infopanel from "./infopanel.js";
 class JatekTer {
   #meret = 5;
   #palyaMeret = this.#meret * this.#meret;
-  #lista = [];
   #STATLISTA = [];
 
   constructor() {
@@ -81,13 +80,9 @@ class JatekTer {
   }
 
   tiletexture() {
-    return Math.floor(Math.random() * 3);
+    return Math.floor(
+      Math.random() * 3);
   }
 
-  stat(palyaMeret) {
-    this.elet = 5;
-    this.stamina = Math.floor(Math.random() * (palyaMeret * 0.2)) + 1;
-  }
- 
 }
 export default JatekTer;

@@ -4,7 +4,7 @@ class Hero {
   #szuloElem;
   #texture;
   #id;
-  #statusok = [];
+  #STATUSOK = [];
   constructor() {
 
   }
@@ -15,12 +15,12 @@ class Hero {
     this.#id = id;
     this.#texture = StatTexture;
     console.log("stat");
-    szuloElem.append(`
+    this.#szuloElem.append(`
     <div class="statok" id="${this.#id}">
-      <img src="${StatTexture}" alt="stat">
+      <img src="${this.#texture}" alt="stat">
     </div>
     <div class="statok" id="${this.#id}">
-    <p>${this.#statusok[id]}</p>
+    <p>${this.#STATUSOK[id]}</p>
   </div>
 `);
 
@@ -29,10 +29,10 @@ class Hero {
 
   stat(palyaMeret) {
     this.elet = 5;
-    this.#statusok.push(this.elet);
+    this.#STATUSOK.push(this.elet);
 
     this.stamina = palyaMeret * 0.4;
-    this.#statusok.push(this.stamina);
+    this.#STATUSOK.push(this.stamina);
   }
 }
 

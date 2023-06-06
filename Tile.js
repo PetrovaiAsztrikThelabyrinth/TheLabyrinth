@@ -9,9 +9,9 @@ class Tile {
     this.#id = id;
     this.#texture = tiletexture;
     console.log("Tile");
-    szuloElem.append(`
+    this.#szuloElem.append(`
     <div class="palya" id="${this.#id}">
-      <img src="${tiletexture}" alt="tile">
+      <img src="${this.#texture}" alt="tile">
     </div>
 `);
   }

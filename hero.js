@@ -7,6 +7,7 @@ class Hero {
   #STATUSOK = [];
   constructor() {
 
+    
   }
   statkiir(id, szuloElem, StatTexture) {
     this.stat(25);

@@ -23,8 +23,8 @@ class JatekTer {
       const HERO = new Hero();
       HERO.statkiir(j, ASIDE, this.#STATLISTA[j]);
     }
-    ARTICLE.append(`<div class="myImage"><img src="kepek/hero.png"></div>`);
-    ARTICLE.append(`<div class="vegImage"><img src="kepek/vegpont.png"></div>`);
+    ARTICLE.append(`<div class="myImage"><img src="./kepek/hero.png"></div>`);
+    ARTICLE.append(`<div class="vegImage"><img src="./kepek/vegpont.png"></div>`);
     ARTICLE.append(`<div class="border"></div>`);
     const BORDER = $(".border");
     this.myImage = $(".myImage img");

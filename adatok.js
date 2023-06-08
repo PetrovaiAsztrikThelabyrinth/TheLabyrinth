@@ -9,11 +9,11 @@ export const VEGLISTA = [
     "Sajnáom elvesztél a labirintusban",
 ]
 export const TILE = [
-    "kepek/dark fantasy du 0.png",
-    "kepek/dark fantasy ti 0.png",
-    "kepek/dark fantasy ti 1.png",
+    "./kepek/dark fantasy du 0.png",
+    "./kepek/dark fantasy ti 0.png",
+    "./kepek/dark fantasy ti 1.png",
 ]
 export const STAT = [
-    "kepek/HP.png",
-    "kepek/energy.png",  
+    "./kepek/HP.png",
+    "./kepek/energy.png",  
 ]

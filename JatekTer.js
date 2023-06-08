@@ -2,6 +2,7 @@ import Tile from "./Tile.js";
 import Hero from "./Hero.js";
 import { TILE, STAT } from "./adatok.js";
 import Infopanel from "./infopanel.js";
+
 class JatekTer {
   #meret = 5;
   #palyaMeret = this.#meret * this.#meret;

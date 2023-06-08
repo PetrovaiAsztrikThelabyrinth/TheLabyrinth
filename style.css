@@ -4,8 +4,9 @@ body{
   background-size: cover;
 }
 footer {
-  text-align: center;
+  text-align: left;
   color: rgb(227, 227, 227);
+  padding-left: 50px;
 }
 header {
   font-size: 100px;

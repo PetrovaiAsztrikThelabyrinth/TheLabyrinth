@@ -5,13 +5,13 @@ body{
 }
 footer {
   text-align: center;
-  color: darkblue;
+  color: rgb(255, 255, 255);
 }
 header {
   font-size: 100px;
   text-align: center;
   padding-bottom: 50px;
-  color: darkblue;
+  color: rgb(255, 255, 255);
 }
 aside {
   justify-self: center;

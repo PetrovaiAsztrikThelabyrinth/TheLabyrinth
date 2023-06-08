@@ -1,5 +1,5 @@
 import Tile from "./Tile.js";
-import Hero from "./Hero.js";
+import Hero from "./hero.js";
 import { TILE, STAT } from "./adatok.js";
 import Infopanel from "./infopanel.js";
 

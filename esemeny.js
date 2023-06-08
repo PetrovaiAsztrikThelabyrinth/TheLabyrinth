@@ -1,5 +1,5 @@
 import { VEGLISTA } from "./adatok.js"
-import Hero from "./Hero.js"
+import Hero from "./hero.js"
 import JatekTer from "./JatekTer.js"
 import veg from "./JatekTer.js"
 import Infopanel from "./infopanel.js"
